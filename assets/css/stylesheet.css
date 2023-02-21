@@ -1,0 +1,40 @@
+body{
+    background-image: url("..//images/supermario-1677004758490-7219.jpg");
+    
+    background-size: cover;
+    
+    
+}
+.marquee{
+    max-height: 80px;
+    max-width: 100px;
+    
+}
+
+.marquee-flipped{
+        max-height: 80px;
+        max-width: 100px;
+        transform: scaleX(-1);
+        
+        
+        
+    }
+
+    .mario{
+        height: 10%;
+        width: 10%;
+        position:absolute;
+        left: 471px;
+        top: 108px;
+    }
+    .ghost{
+        
+        height: 15%;width: 15%;
+        position: relative;
+        left: 150px;
+    }
+    .flying-turtle{
+        
+        height: 10%;
+        width: 10%;
+    }
